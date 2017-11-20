@@ -6,10 +6,9 @@ import pub from './data/hospitalizations.json';
 
 class App extends Component {
   render() {
-    console.log(JSON.parse(pub))
+    // console.log(JSON.parse(pub))
     return (
       <div className="App">
-
         <HealthVisual />
       </div>
     );
